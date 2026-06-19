@@ -19,7 +19,7 @@ Do conflict clusters spread over time? More specifically, does recent conflict i
 ## Repository structure
 
 ```text
-acled_spatiotemporal_project/
+acled-spatiotemporal-conflict-model/
   README.md
   requirements.txt
   data/
@@ -40,7 +40,7 @@ acled_spatiotemporal_project/
 
 ```bash
 git clone https://github.com/Mat99999/acled-spatiotemporal-conflict-model.git
-cd acled_spatiotemporal_project
+cd acled-spatiotemporal-conflict-model
 ```
 
 2. Create and activate a Python environment.
