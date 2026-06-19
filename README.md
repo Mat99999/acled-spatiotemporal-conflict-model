@@ -31,7 +31,6 @@ acled-spatiotemporal-conflict-model/
     figures/
     panels/
   docs/
-    ACLED_Spatiotemporal_Conflict_Model_Methods_and_Results_Brief.docx
 ```
 
 ## Quick start: local computer
@@ -121,10 +120,6 @@ The notebook is designed to avoid hard-coded local file paths. Once this reposit
 - `panel_100km_month.csv`: generated 100 km cell-month modeling panel.
 - `predictions_100km_validation.csv`: validation predictions for selected 100 km models.
 - `06_validation_risk_map_100km.csv`: observed and predicted risk by grid cell.
-
-## Research brief
-
-The `docs/` folder contains `ACLED_Spatiotemporal_Conflict_Model_Methods_and_Results_Brief.docx`, a detailed English methods and preliminary-results brief explaining the research question, data, hypotheses, feature engineering, models, evaluation metrics, robustness checks, limitations, and next steps.
 
 ## Notes
 
