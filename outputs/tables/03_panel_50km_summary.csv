@@ -1,0 +1,7 @@
+metric,value
+grid_km,50.0
+cell_months,3115412.0
+cells,12412.0
+months,251.0
+positive_target_share,0.0079
+mean_events_when_positive,2.12
