@@ -11,9 +11,3 @@ venv/
 
 # Optional local scratch outputs
 /tmp/
-
-# Large generated 50 km panel outputs; regenerate from the notebook when needed.
-data/reference/
-outputs/panels/panel_50km_month.csv
-outputs/panels/predictions_50km_validation.csv
-outputs/panels/predictions_50km_final_test.csv
