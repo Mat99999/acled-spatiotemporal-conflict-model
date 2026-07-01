@@ -46,3 +46,13 @@ The notebook is designed for Colab. It installs TabFM inside the Colab runtime a
 The full 100 km panel is large. The notebook therefore uses a configurable sampled training context for TabFM while evaluating on the out-of-time test period. Increase the context size only if the Colab runtime has enough memory.
 
 The first TabFM model-load cell still needs to download a large pretrained checkpoint from Hugging Face. The notebook deliberately does **not** require a Hugging Face token. To keep the download narrower, it requests only the PyTorch classification checkpoint instead of the full TabFM repository snapshot.
+
+The notebook defaults to `RUN_MODE = "fast"`:
+
+- one feature set, `C_local_plus_neighbors`
+- `MAX_CONTEXT_ROWS = 10_000`
+- `TABFM_N_ESTIMATORS = 1`
+- `TABFM_MAX_NUM_ROWS = 4_096`
+- no feature shuffling and no class-label shifting
+
+Switch to `RUN_MODE = "fuller"` only after the fast exploratory run completes successfully.
