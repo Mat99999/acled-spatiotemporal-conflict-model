@@ -50,9 +50,11 @@ The first TabFM model-load cell still needs to download a large pretrained check
 The notebook defaults to `RUN_MODE = "fast"`:
 
 - one feature set, `C_local_plus_neighbors`
-- `MAX_CONTEXT_ROWS = 10_000`
+- `MAX_CONTEXT_ROWS = 2_000`
 - `TABFM_N_ESTIMATORS = 1`
-- `TABFM_MAX_NUM_ROWS = 4_096`
+- `TABFM_MAX_NUM_ROWS = 1_024`
+- `MAX_TEST_ROWS = 5_000`
+- `PREDICTION_BATCH_SIZE = 128`
 - no feature shuffling and no class-label shifting
 
 Switch to `RUN_MODE = "fuller"` only after the fast exploratory run completes successfully.
